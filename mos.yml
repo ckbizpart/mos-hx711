@@ -8,7 +8,7 @@ sources:
 includes:
   - include
 filesystem:
-  - mjs_fs
+  - fs
 libs:
 
 tags:
