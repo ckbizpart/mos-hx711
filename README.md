@@ -11,9 +11,9 @@ load('api_mqtt.js');
 load('api_net.js');
 load('api_sys.js');
 load('api_timer.js');
-load('api_arduino_hx711.js');
+load('api_arduino_hx711.js'); // Should probably be: load('api_hx711.js');
 let dataPin = 12;
-let clkPin=14;
+let clkPin = 14;
 
 let sensor = HX711.init(dataPin, clkPin, 128);
 
